@@ -68,7 +68,6 @@
   (let ((a 5)
         (b (* 10 a)))
     (assert-equal b 1000)))
-;; Why tf does this work
 
 (define-test test-let*-bindings-are-series
     "let* is like let, but successive bindings may use values of previous ones"
